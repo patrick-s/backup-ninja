@@ -1,0 +1,357 @@
+body{
+	background-color:#DCDCDC;
+	margin:0;
+	padding:0;
+	font-family: 'Arimo', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.clear{
+	clear:both;
+}
+
+#wrapper{
+	background-color:#EEEEEE;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+header{
+	background-color:#2A2A2A;
+	width:100%;
+}
+
+#headtext{
+	padding-left:10px;
+}
+
+#headtext h1{
+	float:left;
+	margin:0;
+	padding:15px 0px 15px 10px;
+	color:#FFFFFF;
+}
+
+#headtext h2{
+	float:left;
+	margin:0;
+	font-size:16px;
+	padding:28px 4px;
+	color:#FFFFFF;
+}
+
+.alert{
+	width:100%;
+	margin:10px 0;
+}
+
+.error-alert{
+	background-color: #ED6557;
+	color: #FFFFFF;
+	padding: 10px 0;
+	text-align: center;
+	border:1px solid #db4434;
+	border-radius:3px;
+	text-shadow: 1px 1px #b33124;
+	
+}
+
+.success-alert{
+	background-color: #32d46d;
+	color: #FFFFFF;
+	padding: 10px 0;
+	text-align: center;
+	border:1px solid #1cb152;
+	border-radius:3px;
+	text-shadow: 1px 1px #049237;
+}
+
+nav{
+}
+
+nav ul{
+	padding:0;
+	margin:0px;
+}
+
+nav li{
+	display:inline;
+	list-style-type:none;
+}
+
+nav li a{
+	color:#131313;
+	font-size:12px;
+	text-decoration:none;
+}
+
+nav .navlink{
+	padding:10px 14px 10px 14px;
+	float:left;
+}
+
+nav .navlink:hover{
+	background-color:#D2493B;
+	color:#EEEEEE;
+}
+
+nav #active{
+	background-color:#bc4a2f;
+	color:#EEEEEE;
+}
+
+main{
+	background-color:#FDFDFD;
+	color:#131313;
+}
+
+main .maintext{
+	padding:40px;
+	border-bottom:1px solid #c5c5c5;
+	border-top:1px solid #c5c5c5;
+}
+
+main h2, main h3{
+	color:#131313;
+}
+
+main .maintext p{
+	/*font-size:19px;*/
+	margin:0;
+}
+
+.container{
+	border:1px solid #b7b7b7;
+	background-color:#e0e0e0;
+	border-radius:3px;
+	margin-bottom:10px;
+}
+
+.container_header{
+	padding:10px;
+}
+
+.container_header_left{
+	float:left;
+}
+
+.container_header_right{
+	float:right;
+}
+
+.container_main{
+	padding:10px;
+}
+
+.form_left{
+	width:49%;
+	float:left;
+	border-right:1px solid grey;
+}
+
+.form_right{
+	width:49%;
+	float:right;
+}
+
+.input_title{
+	float:left;
+	width:30%;
+}
+
+input[type=submit]{
+	float:right;
+}
+
+table{
+	width:100%;
+}
+
+td{
+	border:1px solid grey;
+}
+
+.site_active{
+	background-color:#eff4ec;
+}
+
+.site_suspended{
+	background-color:#e9bbb2;
+}
+
+
+footer{
+	clear:both;
+}
+
+#footertext{
+	padding:3%;
+	font-size:10px;
+	border-bottom:30px solid grey;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td{
+	padding: 10px;
+}
+
+/*
+tr:hover {
+	background-color: #f5f5f5;
+	color: black;
+}
+*/
+
+.edit-col-1{
+	width: 250px;
+	background-color: #3d3d3d;
+	color: white;
+}
+
+.edit-table tr td:first-child{
+	color: white;
+}
+
+.edit-table input {
+    width: 90%;
+    padding: 10px;
+    margin: 0px;
+}
+
+.edit-table select{
+    width: 90%;
+    padding: 10px;
+    margin: 0px;
+}
+
+.sites-table thead tr{
+	background: #3d3d3d;
+	color: white;
+}
+
+.action-links{
+text-decoration: none;
+background-color: rgb(61, 61, 61);
+padding: 5px 10px;
+color: rgb(255, 255, 255);
+}
+
+.moveanddelete{
+	text-decoration: none;
+	background-color: rgb(61, 61, 61);
+	padding: 5px 10px;
+	color: rgb(255, 255, 255);
+	border:none;
+}
+
+#update_user{
+	border: medium none;
+	background-color: rgb(192, 57, 43);
+	color: rgb(255, 255, 255);
+	letter-spacing: 2px;
+	font-size: 15px;
+	font-weight: bold;
+	float:none;
+}
+
+.try_again{
+	background-color: salmon;
+}
+
+.container_main input[type=text]{
+	border: none !important;
+	width: 300px;
+}
+
+.container_main input[type=text]:focus{
+	outline: none !important;
+	background: #bcecbc;
+}
+
+select {
+   border: 1px solid #ccc;
+   /*font-size: 16px;
+   height: 34px;*/
+   width: 268px;
+}
+
+.instructions{
+	float:left;
+	width:25%;
+}
+
+.instructions-head{
+	background-color:#0c82d2;
+}
+
+.instructions-head-text{
+	padding:10px;
+	font-size:18px;
+	color:#FFFFFF;
+}
+
+.instructions-body{
+	background-color:#EEEEEE;
+	padding:10px;
+}
+
+.instructions-body ul{
+	/*padding:0;*/
+	margin:0;
+}
+
+.instructions-body li{
+		/*list-style-type:none;*/
+}
+
+.cron-command{
+    padding: 10px;
+    border-left: 5px solid #0c82d2;
+    margin: 5px 0;
+    background-color: #f8f8f8;
+}
+
+/* --------------------------
+	General
+-------------------------- */
+.action_submit{
+	background-color:#0c82d2;
+	color:#FFFFFF;
+	padding:10px 15px;
+	border:none;
+}
+
+/* --------------------------
+	Quick Action Bar
+-------------------------- */
+.quick-action-bar{
+	background-color:#131313;
+}
+
+.quick-action-content{
+	padding:10px;
+}
+
+.quick-action-button{
+	display:inline-block;
+	padding:10px 15px;
+	background-color:#0c82d2;
+	color:#FFFFFF;
+}
+
+/* --------------------------
+	Check Host
+-------------------------- */
+
+.hosting_url{
+	width:500px;
+	padding:10px;
+	font-size:12px;
+}
